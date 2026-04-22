@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Cake Menu | Sweet Crumbs Cake Company</title>
+
+<!-- Materialize CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+<style>
+body {
+    background-color: #f47777;
+    font-family: Arial;
+    margin: 0;
+}
+
+header {
+    background-color: #ffb6c1;
+    text-align: center;
+    padding: 20px;
+}
+
+.navbar {
+    background-color: #ff9db0;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar a {
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #ffb6c1;
+    text-align: center;
+    padding: 10px;
+}
+
+img {
+    border-radius: 10px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>Our Cake Menu</h1>
+<div class="navbar">
+<a href="index.html">Home</a>
+<a href="pages.html">Cake Information</a>
+<a href="pages2.html">About Us</a>
+</div>
+</header>
+
+<main class="container">
+
+<h2 class="center-align">Delicious Cakes for Every Occasion</h2>
+
+<p>
+Sweet Crumbs Cake Company offers a wide variety of cakes designed to satisfy every sweet tooth. Our bakers carefully prepare each cake using fresh ingredients and traditional baking techniques that create rich flavors and soft textures.
+</p>
+
+<!-- ⭐ CAROUSEL -->
+<h4 class="center-align">Featured Cakes</h4>
+<div class="carousel">
+  <a class="carousel-item" href="#one!"><img src="images/Gemini_Generated_Image_bt8zzbt8zzbt8zzb%20(1).png"></a>
+  <a class="carousel-item" href="#two!"><img src="images/Gemini_Generated_Image_eb7zp1eb7zp1eb7z.png"></a>
+  <a class="carousel-item" href="#four!"><img src="images/Gemini_Generated_Image_srplk0srplk0srpl.png"></a>
+</div>
+
+<br><br>
+
+<!-- Cake Cards -->
+<div class="row">
+
+  <div class="col s12 m6 l3">
+    <div class="card">
+      <div class="card-image">
+        <img src="images/smallcake.jpeg">
+        <span class="card-title">Extra Small</span>
+      </div>
+      <div class="card-content">
+        <p>4 inch cake. Perfect for a small celebration or personal treat.</p>
+      </div>
+      <div class="card-action">
+        <span>Price: $30</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="col s12 m6 l3">
+    <div class="card">
+      <div class="card-image">
+        <img src="images/8incake.png">
+        <span class="card-title">Small</span>
+      </div>
+      <div class="card-content">
+        <p>6 inch cake. Great for a small gathering or birthday party.</p>
+      </div>
+      <div class="card-action">
+        <span>Price: $35</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="col s12 m6 l3">
+    <div class="card">
+      <div class="card-image">
+        <img src="images/6incake.jpeg">
+        <span class="card-title">Medium</span>
+      </div>
+      <div class="card-content">
+        <p>8 inch cake. Ideal for family events or small parties.</p>
+      </div>
+      <div class="card-action">
+        <span>Price: $40</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="col s12 m6 l3">
+    <div class="card">
+      <div class="card-image">
+        <img src="images/12incake.jpeg">
+        <span class="card-title">Large</span>
+      </div>
+      <div class="card-content">
+        <p>12 inch cake. Perfect for weddings, large parties, or special events.</p>
+      </div>
+      <div class="card-action">
+        <span>Price: $45</span>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- ⭐ COLLAPSIBLE -->
+<h4 class="center-align">Cake Details</h4>
+<ul class="collapsible">
+  <li>
+    <div class="collapsible-header">Flavors</div>
+    <div class="collapsible-body">
+      <span>Chocolate, Vanilla, Red Velvet, Lemon, Carrot Cake</span>
+    </div>
+  </li>
+  <li>
+    <div class="collapsible-header">Frostings</div>
+    <div class="collapsible-body">
+      <span>Buttercream, Cream Cheese, Chocolate Ganache</span>
+    </div>
+  </li>
+  <li>
+    <div class="collapsible-header">Custom Orders</div>
+    <div class="collapsible-body">
+      <span>We offer custom designs for birthdays, weddings, and special events.</span>
+    </div>
+  </li>
+</ul>
+
+</main>
+
+<footer>
+<p>Visit Sweet Crumbs Cake Company for fresh cakes every day.</p>
+</footer>
+
+<!-- ⭐ REQUIRED SCRIPTS -->
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+<!-- Materialize JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+<!-- Initialize -->
+<script>
+$(document).ready(function(){
+  $('.carousel').carousel();
+  $('.collapsible').collapsible();
+});
+</script>
+
+</body>
+</html>

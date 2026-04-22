@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>Sweet Crumbs Cake Company</title>
+
+<style>
+body{
+background-color:#f47777;
+font-family:Arial;
+margin:0;
+}
+
+header{
+background-color:#ffb6c1;
+text-align:center;
+padding:20px;
+cursor:pointer;
+}
+
+.navbar{
+background-color:#ff9db0;
+padding:10px;
+text-align:center;
+}
+
+.navbar a{
+margin:10px;
+text-decoration:none;
+color:black;
+font-weight:bold;
+}
+
+footer{
+background-color:#ffb6c1;
+text-align:center;
+padding:10px;
+}
+
+aside{
+background-color:#ffe6f0;
+padding:15px;
+margin-top:20px;
+}
+
+img{
+display:block;
+margin:15px auto;
+border-radius:10px;
+cursor:pointer;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>Sweet Crumbs Cake Company</h1>
+<p><i>Fresh cakes baked daily with love</i></p>
+</header>
+
+<div class="navbar">
+<a href="index.html">Home</a>
+<a href="pages.html">Cake Information</a>
+<a href="pages2.html">About Us</a>
+<a href="jquery.html">Jquery</a>
+<a href="materialize.html">Materialize</a>
+</div>
+
+<main>
+
+<section>
+
+<h2>Welcome to Our Bakery</h2>
+
+<div class="image-container">
+<img src="images/cupcake1.jpg" alt="Cupcake Image" width="200" height="200">
+</div>
+
+<p>
+Sweet Crumbs Cake Company is a neighborhood bakery focused on creating tasty cakes and desserts for all kinds of celebrations. We use fresh ingredients and traditional baking methods to make cakes that are both beautiful and flavorful. Customers come to our bakery for birthdays, weddings, and many other special occasions because they know they can count on high-quality desserts. Every morning our bakers start early, preparing cake batter, frosting, and decorations so everything is ready and fresh when the doors open. The bakery is filled with the comforting aroma of vanilla, chocolate, and butter, creating a cozy and inviting space. We believe that desserts help bring people together and make moments more memorable.
+</p>
+
+<p>
+Sweet Crumbs Cake Company offers a wide variety of cakes designed to satisfy every type of craving. Our bakers carefully prepare each cake using fresh ingredients and traditional baking techniques that create rich flavors and soft textures. Customers can choose from our list of cake flavors we have provided. Each cake is layered with delicious frosting and decorated to look beautiful for any event. Whether you are planning a birthday party, wedding reception, or graduation celebration, we have the perfect cake to match the occasion. Many of our cakes can also be customized with special messages or colors to match a party theme. Our goal is to make every celebration sweeter and more memorable through our desserts.
+</p>
+
+</section>
+
+<aside>
+<h3>Popular Cake Types</h3>
+
+<ul>
+<li>Chocolate Fudge Cake</li>
+<li>Vanilla Buttercream Cake</li>
+<li>Red Velvet Cake</li>
+<li>Strawberry Shortcake</li>
+<li>Lemon Layer Cake</li>
+</ul>
+
+</aside>
+
+</main>
+
+<footer>
+<p>Sweet Crumbs Cake Company | 529 High Street | Chagrin Falls, Ohio</p>
+</footer>
+
+<script>
+
+window.onload = function() {
+    alert("Welcome to Sweet Crumbs Cake Company!");
+};
+
+
+document.querySelector("header").onclick = function() {
+    document.body.style.backgroundColor = "#ffe6f0";
+};
+
+document.querySelector("img").onclick = function() {
+    alert("This cupcake is one of our customer favorites!");
+};
+
+
+let button = document.createElement("button");
+button.innerText = "Click for a Sweet Message";
+button.style.display = "block";
+button.style.margin = "20px auto";
+button.style.padding = "10px";
+
+document.body.appendChild(button);
+
+button.onclick = function() {
+    alert("Life is what you bake it 🍰");
+};
+</script>
+<footer>
+<p>
+Sweet Crumbs Cake Company | 529 High Street | Chagrin Falls, Ohio <br>
+Call us: <a href="tel:4408289009">(440) 828-9009</a>
+</p>
+</footer>
+
+</body>
+</html>
